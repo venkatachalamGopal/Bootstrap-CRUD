@@ -1,0 +1,36 @@
+[
+    {   "id":"1",
+        "name":"Arjun",
+        "age":"25",
+        "city":"Chennai",
+        "state":"Tamilnadu"
+    },
+    {  
+         "id":"2",
+        "name":"Bala",
+        "age":"26",
+        "city":"Mumbai",
+        "state":"Maharastra"
+    },
+    {
+        "id":"3",
+        "name":"Chandran",
+        "age":"27",
+        "city":"Bangalore",
+        "state":"karnataka"
+    },
+    {
+        "id":"4",
+        "name":"Daniel",
+        "age":"28",
+        "city":"Thiruvanathapuram",
+        "state":"Kerala"
+    },
+    {
+        "id":"5",
+        "name":"Elango",
+        "age":"29",
+        "city":"Gandhi Nagar",
+        "state":"Gujarat"
+    }
+]
