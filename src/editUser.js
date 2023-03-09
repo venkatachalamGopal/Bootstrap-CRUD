@@ -32,7 +32,7 @@ export function EditUser(){
                 "Content-Type":"application/json"
             }
         })
-        await navigate('/create-user');
+        navigate('/');
         // console.log(editobj);
     }
     

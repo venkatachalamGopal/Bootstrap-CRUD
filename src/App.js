@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='container'>
     <Routes>
-      <Route path="/create-user" element={<CreateUsers/>}/>
+      <Route path="/" element={<CreateUsers/>}/>
       <Route path="/add-user" element={<AddUser/>}/>
       <Route path="/edit-user/:id" element={<EditUser/>}/>
     </Routes>

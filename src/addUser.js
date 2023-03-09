@@ -21,7 +21,7 @@ export function AddUser(){
                 "Content-Type":"application/json"
             }
         })
-        await navigate("/create-user");
+        await navigate("/");
 
     }
 
