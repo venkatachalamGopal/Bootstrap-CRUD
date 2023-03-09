@@ -20,7 +20,7 @@ export function CreateUsers(){
     // Delete Function call
 
     function deleteuser(id){
-        if(window.confirm(`Are You sure ! wants to Delete this User- ${id}`)===true)
+        if(window.confirm(`Are You sure ! wants to Delete this User - ${id}`)===true)
         {
                 fetch(`${url}/${id}`,{
                 method:'DELETE'
@@ -44,9 +44,9 @@ export function CreateUsers(){
   
     return(
         <>
-        <h3>User Lists </h3>
+        <h3 className='text'><u>USER LISTS :</u></h3>
         <Table striped="columns" bordered style={{border:'1px'}}>
-            <thead variant="dark">
+            <thead variant="dark" className='table-dark'>
             <tr className='thead'>
                 <th>S.NO</th>
                 <th>NAME</th>

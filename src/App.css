@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 .thead{
   color: red;
   letter-spacing: 1px;
@@ -23,4 +24,8 @@
 .userBtn{
   width: 100%;
   font-weight: bold;
+}
+.text{
+  text-align: center;
+  margin: 15px 0px;
 }
