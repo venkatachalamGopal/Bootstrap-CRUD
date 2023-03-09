@@ -25,7 +25,7 @@ export function EditUser(){
         const editobj={
             name:name,age:age,city:city,state:state
         }
-        const sddata=await fetch(`${url}/${id}`,{
+        await fetch(`${url}/${id}`,{
             method:"PUT",
             body:JSON.stringify(editobj),
             headers:{
