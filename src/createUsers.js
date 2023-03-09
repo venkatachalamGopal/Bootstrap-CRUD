@@ -20,7 +20,7 @@ export function CreateUsers(){
     // Delete Function call
 
     function deleteuser(id){
-        if(window.confirm(`Are You sure ! wants to Delete this User- ${id}`)==true)
+        if(window.confirm(`Are You sure ! wants to Delete this User- ${id}`)===true)
         {
                 fetch(`${url}/${id}`,{
                 method:'DELETE'
